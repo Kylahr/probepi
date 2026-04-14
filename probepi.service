@@ -1,0 +1,14 @@
+[Unit]
+Description=Probe Request Collector
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/pi/probepi
+ExecStart=/home/pi/probepi/venv/bin/python /home/pi/probepi/main.py --iface wlan0
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
