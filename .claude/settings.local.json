@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth:*)",
+      "Bash(gh --version)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" --version)",
+      "Bash(\"/c/Users/RTX5070/AppData/Local/Programs/GitHub CLI/gh.exe\" --version)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe auth:*)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe repo:*)",
+      "Bash(git add:*)",
+      "Bash(git -c user.email=you@local -c user.name=you commit -m \"add heltec v3 probe sniffer firmware + jsonl ingest\")",
+      "Bash(git push:*)"
+    ]
+  }
+}
